@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "moonfly": {
+      "rev": "2c883835f5b7b380a0a9e80695c420f7efebdfe4",
+      "src": "https://github.com/bluz71/vim-moonfly-colors"
+    }
+  }
+}
