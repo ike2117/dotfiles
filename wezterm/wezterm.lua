@@ -1,6 +1,6 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
-config.default_prog = {'powershell.exe', '-NoLogo'}
+require('shell').apply_to_config(config)
 config.front_end = 'WebGpu'
 
 wezterm.on('gui-startup', function(cmd)
