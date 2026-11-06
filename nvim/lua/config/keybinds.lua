@@ -9,3 +9,4 @@ map.set('n', '<Right>', '<Nop>')
 
 map.set('n', 'n', 'nzz') -- Auto recenter after n
 map.set('n', 'N', 'Nzz') -- Auto recenter after N
+
