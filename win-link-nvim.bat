@@ -7,7 +7,7 @@ rem
 rem Usage: win-link-nvim.bat [/nopause]
 rem   /nopause   Do not wait for a key at the end. Use when calling from a script.
 
-set "SOURCE=%~dp0nvim"
+set "SOURCE=%~dp0nvim\.config\nvim"
 set "TARGET=%LOCALAPPDATA%\nvim"
 set "NOPAUSE="
 if /i "%~1"=="/nopause" set "NOPAUSE=1"
